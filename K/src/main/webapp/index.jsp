@@ -13,8 +13,13 @@
 <body>
 
 
-<a href="/getall.action">look-look</a>
 
+<form action="/upload.action" method="post" enctype="multipart/form-data">
+    <input type="file" name="image" />   <br/>
+
+    <input type="submit" value="提交" />
+</form>
+<img src="images/h.jpg">
 
 </body>
 </html>
